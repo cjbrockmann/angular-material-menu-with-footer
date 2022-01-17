@@ -1,0 +1,192 @@
+[
+  {
+    "oid": "1407",
+    "children": [
+      {
+        "oid": "2905",
+        "children": [],
+        "geraete_typ_name": "CT-Router LTE/HSPA (2LAN)",
+        "status": {
+          "text": "Offline",
+          "color": "#ae0000",
+          "status_time": "2021-12-14 09:20:34",
+          "sign": "&#10008;",
+          "tooltip": "Status seit: &nbsp;&nbsp;&nbsp;&nbsp;12 Tage 00:27:11 Stunden\r\nLetzter Wert: 14.12.2021 09:20:34"
+        },
+        "name": "CT Router LTE (2 LAN)",
+        "tooltip": "Typ: CT-Router LTE/HSPA (2LAN)\r\nFirmware: 1.09.12\r\nHersteller: ISONA GmbH\r\nSeriennummer: A16391657\r\nID: 2905",
+        "allGood": 0
+      },
+      {
+        "allGood": "1",
+        "tooltip": "Kürzel: CT-LTE\r\nTyp: CT-Router LTE (4LAN)\r\nFirmware: 1.11.8\r\nHersteller: ISONA GmbH\r\nSeriennummer: A19497494\r\nID: 2827",
+        "geraete_typ_name": "CT-Router LTE (4LAN)",
+        "children": [],
+        "name": "CT Router LTE",
+        "status": {
+          "text": "Online",
+          "color": "#31b404",
+          "status_time": "2021-12-14 09:20:09",
+          "sign": "&#10004;",
+          "tooltip": "Status seit: &nbsp;&nbsp;&nbsp;&nbsp;11 Tage 23:57:34 Stunden\r\nLetzter Wert: 14.12.2021 09:20:09"
+        },
+        "oid": "2827"
+      }
+    ],
+    "tooltip": "Kunde: Test Kunde\r\nID: 1407",
+    "sign": "&nbsp;!&nbsp;",
+    "nr": "0000001",
+    "allGood": 0,
+    "color": "#faac58",
+    "name": "Comtime - LTE"
+  },
+  {
+    "color": "#31b404",
+    "name": "Comtime - LAN (neues Modell)",
+    "nr": "0000005",
+    "allGood": "1",
+    "oid": "1431",
+    "children": [
+      {
+        "name": "CT Router LAN (neues Modell)",
+        "status": {
+          "tooltip": "Status seit: &nbsp;&nbsp;&nbsp;&nbsp;10 Tage 19:37:34 Stunden\r\nLetzter Wert: 14.12.2021 09:20:10",
+          "sign": "&#10004;",
+          "status_time": "2021-12-14 09:20:10",
+          "color": "#31b404",
+          "text": "Online"
+        },
+        "children": [],
+        "geraete_typ_name": "CT-Router LAN (ab 10/2021)",
+        "oid": "2901",
+        "allGood": "1",
+        "tooltip": "Typ: CT-Router LAN (ab 10/2021)\r\nFirmware: 1.11.7\r\nHersteller: ISONA GmbH\r\nSeriennummer: A21321575\r\nID: 2901"
+      }
+    ],
+    "tooltip": "ID: 1431",
+    "sign": "&#10004;"
+  },
+  {
+    "children": [
+      {
+        "tooltip": "Kürzel: DL-S\r\nTyp: ISONA Datenlogger S (W550)\r\nFirmware: 5.2.7.350\r\nHersteller: Nicht eingetragen\r\nSeriennummer: 04601057\r\nID: 2826",
+        "allGood": "1",
+        "oid": "2826",
+        "status": {
+          "color": "#31b404",
+          "text": "Online",
+          "status_time": "2021-12-14 09:20:12",
+          "tooltip": "Status seit: &nbsp;&nbsp;&nbsp;&nbsp;11 Tage 23:57:31 Stunden\r\nLetzter Wert: 14.12.2021 09:20:12",
+          "sign": "&#10004;"
+        },
+        "name": "Datenlogger S",
+        "children": [],
+        "geraete_typ_name": "ISONA Datenlogger S (W550)"
+      }
+    ],
+    "tooltip": "Kürzel: Tixi\r\nID: 1408",
+    "oid": "1408",
+    "sign": "&#10004;",
+    "nr": "0000101",
+    "allGood": "1",
+    "color": "#31b404",
+    "name": "FP Inovolabs - Wandbox S"
+  },
+  {
+    "name": "FP Inovolabs - Wandbox P",
+    "color": "#31b404",
+    "allGood": "1",
+    "nr": "0000106",
+    "sign": "&#10004;",
+    "children": [
+      {
+        "oid": "2871",
+        "status": {
+          "status_time": "2021-12-14 09:20:12",
+          "text": "Online",
+          "color": "#31b404",
+          "sign": "&#10004;",
+          "tooltip": "Status seit: &nbsp;&nbsp;&nbsp;&nbsp;11 Tage 23:57:31 Stunden\r\nLetzter Wert: 14.12.2021 09:20:12"
+        },
+        "name": "Datenlogger P",
+        "geraete_typ_name": "ISONA Datenlogger P (W660)",
+        "children": [],
+        "tooltip": "Kürzel: DL-P\r\nTyp: ISONA Datenlogger P (W660)\r\nFirmware: 5.2.7.350\r\nHersteller: ISONA GmbH\r\nSeriennummer: 04241545\r\nID: 2871",
+        "allGood": "1"
+      }
+    ],
+    "tooltip": "Kürzel: Tixi\r\nKunde: Test Kunde\r\nID: 1425",
+    "oid": "1425"
+  },
+  {
+    "nr": "0000202",
+    "allGood": 0,
+    "color": "#faac58",
+    "name": "Ursalink - Miniboxen",
+    "oid": "1418",
+    "tooltip": "Kürzel: Miniboxen\r\nID: 1418",
+    "children": [
+      {
+        "geraete_typ_name": "ISONA Alarm und Daten Minibox",
+        "children": [],
+        "allGood": 0,
+        "status": {
+          "status_time": "2021-11-30 09:58:58",
+          "color": "#ae0000",
+          "text": "Offline",
+          "tooltip": "Status seit: &nbsp;&nbsp;&nbsp;&nbsp;13 Tage 23:23:43 Stunden\r\nLetzter Wert: 30.11.2021 09:58:58",
+          "sign": "&#10008;"
+        },
+        "name": "Minibox NB-IoT mit serieller Schnittstelle",
+        "tooltip": "Kürzel: NB-IoT (seriell)\r\nTyp: ISONA Alarm und Daten Minibox\r\nFirmware: 03.11\r\nHersteller: Nicht eingetragen\r\nSeriennummer: 6123A1522147\r\nID: 2829",
+        "oid": "2829"
+      },
+      {
+        "status": {
+          "color": "#31b404",
+          "text": "Online",
+          "status_time": "2021-11-29 09:47:22",
+          "tooltip": "Status seit: &nbsp;&nbsp;&nbsp;&nbsp;14 Tage 23:41:58 Stunden\r\nLetzter Wert: 29.11.2021 09:47:22",
+          "sign": "&#10004;"
+        },
+        "name": "Minibox LTE",
+        "allGood": "1",
+        "children": [],
+        "geraete_typ_name": "ISONA Alarm und Daten Minibox",
+        "oid": "2856",
+        "tooltip": "Kürzel: LTE\r\nTyp: ISONA Alarm und Daten Minibox\r\nFirmware: 04.13\r\nHersteller: ISONA GmbH\r\nSeriennummer: 6113A3946237\r\nID: 2856"
+      },
+      {
+        "tooltip": "Kürzel: LTE Seriell\r\nTyp: ISONA Alarm und Daten Minibox\r\nFirmware: 03.11\r\nHersteller: ISONA GmbH\r\nSeriennummer: 6123A1516962\r\nID: 2850",
+        "oid": "2850",
+        "children": [],
+        "geraete_typ_name": "ISONA Alarm und Daten Minibox",
+        "name": "Minibox LTE mit serieller Schnittstelle",
+        "status": {
+          "color": "#31b404",
+          "text": "Online",
+          "status_time": "2021-12-14 09:16:03",
+          "tooltip": "Status seit: &nbsp;&nbsp;&nbsp;&nbsp;05:35:44 Stunden\r\nLetzter Wert: 14.12.2021 09:16:03",
+          "sign": "&#10004;"
+        },
+        "allGood": "1"
+      },
+      {
+        "geraete_typ_name": "ISONA Alarm und Daten Minibox",
+        "children": [],
+        "allGood": "1",
+        "name": "Minibox GSM",
+        "status": {
+          "tooltip": "Status seit: &nbsp;&nbsp;&nbsp;&nbsp;06:10:07 Stunden\r\nLetzter Wert: 14.12.2021 09:11:48",
+          "sign": "&#10004;",
+          "color": "#31b404",
+          "text": "Online",
+          "status_time": "2021-12-14 09:11:48"
+        },
+        "tooltip": "Kürzel: GSM\r\nTyp: ISONA Alarm und Daten Minibox\r\nFirmware: 02.20\r\nHersteller: ISONA GmbH\r\nSeriennummer: 611390929385\r\nID: 2830",
+        "oid": "2830"
+      }
+    ],
+    "sign": "&nbsp;!&nbsp;"
+  }
+]

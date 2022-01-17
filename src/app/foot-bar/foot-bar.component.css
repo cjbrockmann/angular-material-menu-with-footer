@@ -1,0 +1,22 @@
+/*
+body {
+  margin-bottom: 40px;
+}
+*/
+
+.footer {
+  flex: none;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  /* 
+  position: absolute; 
+  bottom: 0;
+  */
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  border-width: 2px;
+  border-style: solid;
+  border-color: orange;
+}

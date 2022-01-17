@@ -1,0 +1,59 @@
+Aufgaben:
+
+0) Vorbereitung
+Stackblitz funktioniert am besten im Chrome Browser.
+Benutzen Sie den "Fork"-Button, um eine eigene Kopie des Codes zu erstellen. Ihr Code wird nur temporär gespeichert, wir empfehlen daher sich per GitHub anzumelden, um dauerhaftes Speichern freizuschalten. 
+Den Link zu Ihren Ergebnissen können Sie dann über den "Share"-Button erzeugen.
+
+
+1) Design und Optik
+Bei allen Aufgaben gilt, dass die Objekte in einem intuitiven und ansprechenden Design gestaltet sein sollen. Die Optik ist im Optimalfall im "ISONA-Stil" zu halten. Die ISONA-Farbe ist #f18a01.
+Der über Buttons o.ä. aufgerufene Seiteninhalt soll immer im zentralen div "main-content" abgebildet werden, so dass Kopf- und Fußzeile, so wie Seitenmenü immer vorhanden sind.
+
+
+2) Menüleiste
+Erweitern der Menüleiste mit Buttons für Home, Benutzereinstellungen und Login/Logout. Die neuen Buttons sollen keine wirkliche Funktionalität abbilden, sondern jeweils eine Seite Laden, in der ein Pseudo-Text eingefügt werden kann.
+
+
+3) Seitenmenü
+Das Menü soll standardmäßig angezeigt werden, mit der Option es über den Button in der Menüleiste zu verstecken. Die derzeitige Liste im Seitenmenü soll so erweitert - oder ersetzt - werden, dass man hierüber die Navigation gestalten kann. 
+Die Auswahlmöglichkeiten sollen zu Seiten mit Pseudo-Text führen, sofern im Folgenden nicht anders gefordert.
+
+
+3.1)
+"Wizards" soll bei der Auswahl ein weiteres Untermenü innerhalb des Seitenmenüs anzeigen, in dem "Providerwizard" und "Installationswizard" sichtbar werden. Diese sollen beim Auswählen Seiten mit Pseudo-Text anzeigen.
+
+
+3.2) Geräte-Button
+Der Geräte-Button soll eine Seite anzeigen, die eine möglichst gute Übersicht der in src/data/data.json definierten Projekte und Geräte zeigt. Die Darstellung ist frei wählbar, sollte jedoch im Optimalfall die hierarchische Struktur abbilden. 
+
+
+3.2.1) Informationen zu src/data/data.json 
+Die Datei entält im JSON-Format ein Array aus Maps. Jede dieser Maps entspricht einem Projekt, das Informationen über dieses enthält, sowie ein Feld "children" mit einem Array der dem Projekt zugeordneten Geräte. Jedes dieser Geräte-Children ist ebenfalls eine Map mit Informationen, sowie einem "children"-Array. Auf diese Weise können beliebig viele Generationen von Geräten existieren.
+
+Die Maps enthalten folgende Felder:
+
+Projekt:
+  oid: Eindeutige ID des Projekts in der Datenbank
+  name: Name des Projekts
+  nr: Projektnummer des Kunden
+  tooltip: Für das Projekt passender Tooltip mit Informationen
+  allGood: 1 oder 0, abhängig von der Verfügbarkeit der Child-Geräte
+  color: Farbcode (grün, gelb, rot), abhängig von der Verfügbarkeit der Child-Geräte
+  sign: HTML-Code für Haken, Ausrufezeichen oder Kreuz, abhängig von der Verfügbarkeit der Child-Geräte
+  children: Array aus Maps, die jeweils ein Gerät darstellen
+
+Gerät:
+  oid: Eindeutige ID des Geräts in der Datenbank
+  name: Name des Geräts
+  geraete_typ_name: Gerätetyp
+  tooltip: Für das Gerät passender Tooltip mit Informationen
+  allGood: 1 oder 0, abhängig von der Verfügbarkeit dieses Geräts und seiner Child-Geräte
+  children: Array aus Maps, die jeweils ein Gerät darstellen
+  status: Map mit Informationen zur Verfügbarkeit des Geräts
+    text: Lesbarer Status
+    sign: HTML-Code für Haken, Ausrufezeichen oder Kreuz, abhängig von der Verfügbarkeit des Geräts
+    color: Farbcode (grün, gelb, rot), abhängig von der Verfügbarkeit des Geräts
+    tooltip: Für den Status des Geräts passender Tooltip mit Informationen
+    status_time: Zeitpunkt der Statusanfrage
+  

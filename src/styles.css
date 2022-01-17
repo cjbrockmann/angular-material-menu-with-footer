@@ -1,0 +1,82 @@
+/* Add application styles & imports to this file! */
+
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+html {
+  height: 100%;
+  overflow-y: scroll;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: blanchedalmond !important;
+}
+
+my-app {
+  margin: 0px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: blanchedalmond;
+}
+
+mat-toolbar a:hover {
+  color: #ddd;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1400px) {
+  my-app {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+app-main {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px dashed blue; */
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px dashed red; */
+  flex: 1 1 auto;
+}
+
+mat-sidenav-container {
+  flex: 1 1 auto;
+}
+
+#routercontent {
+  margin: 20px;
+  margin-bottom: 40px;
+  /* background-color: white; */
+}
+
+#routercontent p {
+  padding: 10px;
+}
+
+.mat-toolbar-row {
+  background-color: #f18a01;
+}
+
+@media screen and (min-width: 700px) {
+  #lorem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20%;
+  }
+
+  #lorem p {
+    width: 32%;
+  }
+}
+
+/* .mat-sidenav {
+  background-color: blanchedalmond;
+} */
