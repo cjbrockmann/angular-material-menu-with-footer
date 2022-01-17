@@ -1,4 +1,4 @@
-# angular-ivy-dpe4x3
+# angular material responsive menu
 
 This application demonstrates a responsive angular material menu with footer. 
 
