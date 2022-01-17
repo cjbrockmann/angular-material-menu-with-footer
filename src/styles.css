@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: blanchedalmond !important;
+  background-color: lightgrey !important;
 }
 
 my-app {
@@ -18,7 +18,7 @@ my-app {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: blanchedalmond;
+  background-color: lightgrey;
 }
 
 mat-toolbar a:hover {
@@ -58,10 +58,6 @@ mat-sidenav-container {
 
 #routercontent p {
   padding: 10px;
-}
-
-.mat-toolbar-row {
-  background-color: #f18a01;
 }
 
 @media screen and (min-width: 700px) {
